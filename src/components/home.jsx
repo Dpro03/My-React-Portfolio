@@ -16,7 +16,7 @@ const Home = () => {
         </h2>
         <p className="text-[#c0c7db] py-4 max-w-[700px]">
           I am a full stack web developer who enjoys creating awesome digital
-          content. I recently graduated bootcamp from the University of
+          content. I recently graduated from bootcamp at the University of
           Connecticut, and would love to help build and design front-end or
           full-stack projects for your organization!
         </p>
