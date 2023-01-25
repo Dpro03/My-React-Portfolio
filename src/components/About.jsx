@@ -25,12 +25,12 @@ const About = () => {
               This is new to me. My life for the past 20 plus years has been
               working as a respiratory therapist. Being a healthcare
               professional had been an amazing experience for me. In my career,
-              I was able to precept new members, including doctors, to life as
-              teammates in improving the health of other people. I thought that I wouldn't cry, but breaking your heart breaks mine!
-              the University of Connecticut's Full Stack Web Development
-              Bootcamp. I am currently looking for a full time position as a web
-              developer. Please feel free to contact me if you have any
-              questions or if you would like to work together.
+              I was able to precept new healthcare team members, including
+              doctors, to help improve the health of other people. I have
+              recently graduated from the University of Connecticut's Full Stack
+              Web Development Bootcamp. I am currently looking for a full time
+              position as a web developer. Please feel free to contact me if you
+              have any questions or if you would like to work together.
             </p>
           </div>
         </div>
