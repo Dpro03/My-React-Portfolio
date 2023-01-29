@@ -21,7 +21,7 @@ const About = () => {
             </p>
           </div>
           <div>
-            <p class="text-blue-300 text-left text-2xl py-4 w-full">
+            <p class="text-blue-300 text-left py-4 w-full">
                This is a new venture for me. For the past 20 plus years, I have had the great fortune of 
                working as a respiratory therapist.  With over two decades of experience
                in healthcare, I have developed a deep understanding of the industry 
