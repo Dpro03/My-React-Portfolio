@@ -17,7 +17,7 @@ const Navbar = () => {
       <ul className="hidden md:flex pr-10">
         <li>
           <Link
-            className="hover:text-pink-600"
+            className="hover:text-purple-400"
             to="Home"
             smooth={true}
             duration={500}
@@ -27,7 +27,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            className="hover:text-pink-600"
+            className="hover:text-purple-400"
             to="About"
             smooth={true}
             duration={500}
@@ -37,7 +37,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            className="hover:text-pink-600"
+            className="hover:text-purple-400"
             to="Skills"
             smooth={true}
             duration={500}
@@ -47,7 +47,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            className="hover:text-pink-600"
+            className="hover:text-purple-400"
             to="work"
             smooth={true}
             duration={500}
@@ -57,7 +57,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            className="hover:text-pink-600"
+            className="hover:text-purple-400"
             to="Contact"
             smooth={true}
             duration={500}
