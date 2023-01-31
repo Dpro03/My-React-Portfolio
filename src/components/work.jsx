@@ -7,16 +7,16 @@ import JavaScriptQuiz from "../assets/JavaScript-Quiz.png";
 import passwordGenerator from "../assets/passwordGenerator.png";
 const Work = () => {
   return (
-    <div name="work" className="w-full md:h-screen text-gray-300 bg-[#0a192f]">
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
+    <div name="work" className="w-full md:h-screen text-gray-300 bg-gradient-to-r from-blue-900 to-rose-900">
+      <div className="max-w-[1200px] mx-auto p-4 flex flex-col justify-center w-full h-auto">
+        <div className="pb-4">
           <p className="text-5xl font-bold inline border-b-4 text-gray-300 border-pink-600">
             Work
           </p>
           <p className="py-6 text-2xl">Check out some of my recent work</p>
         </div>
         {/* container */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-4 h-full">
           {/* grid-item */}
           <div
             style={{ backgroundImage: `url(${curiousappetite})` }}
