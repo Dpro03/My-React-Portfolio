@@ -4,14 +4,14 @@ const Contact = () => {
   return (
     <div
       name="Contact"
-      className="w-full h-screen bg-gradient-to-r from-blue-900 to-rose-900 flex justify-center items-center p-4"
+      className="md:flex flex-col w-full h-screen bg-gradient-to-r from-blue-900 to-rose-900 flex justify-center items-center p-4"
     >
       <form
         method="POST"
         action="https://getform.io/f/4db33b7f-e7b2-4df1-aa39-2192b85dc07a"
         className="flex flex-col max-w-[600px] w-full"
       >
-        <div className="pb-8">
+        <div className="pb-4">
           <p className="text-5xl font-bold inline border-b-4 border-pink-600 text-gray-300">
             Contact
           </p>
@@ -34,10 +34,10 @@ const Contact = () => {
         <textarea
           className="bg-[#ccd6f6] p-2"
           name="message"
-          rows="10"
+          rows="8"
           placeholder="Message"
         ></textarea>
-        <button className="text-white border-2 hover:bg-pink-600 hover:border-black px-6 py-3 my-8 mx-auto flex items-center">
+        <button className="text-white border-2 hover:bg-pink-600 hover:border-black px-6 py-3 my-6 mx-auto flex items-center">
           Let's Collaborate <br></br>
         
         </button>

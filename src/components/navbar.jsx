@@ -5,7 +5,7 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 import DP6 from "../assets/DP6.jpeg";
 import { Link } from "react-scroll";
 const Navbar = () => {
-  const [nav, setNav] = useState(false);
+  const [nav, setNav] = useState(true);
   const handleClick = () => setNav(!nav);
 
   return (
