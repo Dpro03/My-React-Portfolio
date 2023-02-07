@@ -1,23 +1,24 @@
 import React, { useState } from "react";
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaBars, FaTimes, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import DP6 from "../assets/DP6.jpeg";
+import { FaFileDownload } from "react-icons/fa";
+// import DP6 from "../assets/DP6.jpeg";
 import { Link } from "react-scroll";
 const Navbar = () => {
   const [nav, setNav] = useState(true);
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-0 bg-[#52525f] text-gray-300">
+    <div className="fixed w-full h-[90px] flex justify-between items-center px-0 bg-[#52525p] text-gray-300">
       <div>
-        <img src={DP6} alt="logo" style={{ width: "120px", height: "80px" }} />
+        {/* <img src={DP6} alt="logo" style={{ width: "120px", height: "90px" }} /> */}
       </div>
       {/* menu */}
       <ul className="hidden md:flex pr-10">
         <li>
           <Link
-            className="hover:text-purple-400"
+            className="hover:text-slate-900"
             to="Home"
             smooth={true}
             duration={500}
@@ -27,7 +28,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            className="hover:text-purple-400"
+            className="hover:text-slate-900"
             to="About"
             smooth={true}
             duration={500}
@@ -37,7 +38,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            className="hover:text-purple-400"
+            className="hover:text-slate-900"
             to="Skills"
             smooth={true}
             duration={500}
@@ -47,7 +48,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            className="hover:text-purple-400"
+            className="hover:text-slate-900"
             to="work"
             smooth={true}
             duration={500}
@@ -57,7 +58,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            className="hover:text-purple-400"
+            className="hover:text-slate-900"
             to="Contact"
             smooth={true}
             duration={500}
@@ -76,7 +77,7 @@ const Navbar = () => {
         className={
           nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-gradient-to-r from-blue-900 to-rose-900 flex flex-col justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen bg-gradient-to-r from-slate-900 to-rose-900 flex flex-col justify-center items-center"
         }
       >
         <li className="py-6 text-4xl hover:text-pink-600">
@@ -104,12 +105,51 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
-      </ul>
+        <br />
+        <br />
+        <li classname="py-6 text 2xl">
+        <a className="flex justify-between items-center left-1 w-full text-gray-300"
+            href="https://www.linkedin.com/in/david-proto-231521209/"
+          >linkedin <FaLinkedin size={30} />{" "} </a>
+        </li>
+        <br />
+        <li classname="py-6 text 2xl">
+        <a className="flex justify-between items-center left-1 w-full text-gray-300"
+            href="https://Github.com/Dpro03/"
+          >Github <FaGithub size={30} />{" "} </a>
+        </li>
+        <br />
+        <li classname="py-6 text 2xl">
+        <a className="flex justify-between items-center left-1 w-full text-gray-300"
+            href="mailto:dpro03@gmail.com">
+            Email <HiOutlineMail size={30} />{" "} </a>
+        </li>
+        <br />
+        <li classname="py-6 text 2xl">
+        <a className="flex justify-between items-center left-1 w-full text-gray-300"
+        href="https://drive.google.com/open?id=1-8VXYD_EiPYXND0fgJXwtblzPYKWGPkg&authuser=dpro308%40gmail.com&usp=drive_fs"
+        >Resume <BsFillPersonLinesFill size={30} />{" "} </a>
+        </li>
+        <br />
+        <li classname="py-6 text 2xl">
+        <a className="flex justify-between items-center left-1 w-full text-gray-300"
+        href="https://www.twitter.com/DavidProto3"
+        >Twitter <FaTwitter size={30} />{" "} </a>
+        </li>
 
+            
+            
+          
+         
+
+
+
+      </ul>
+    
       {/* social-icons */}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-rose-900">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://www.linkedin.com/in/david-proto-231521209/"
@@ -117,7 +157,7 @@ const Navbar = () => {
               Linkedin <FaLinkedin size={30} />{" "}
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#3f4d5a]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://Github.com/Dpro03"
@@ -125,7 +165,7 @@ const Navbar = () => {
               GitHub <FaGithub size={30} />{" "}
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-700">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-rose-900">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="mailto:dpro308@gmail.com"
@@ -133,7 +173,7 @@ const Navbar = () => {
               Email <HiOutlineMail size={30} />{" "}
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#5a6066]">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#3f4d5a]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://drive.google.com/open?id=1-8VXYD_EiPYXND0fgJXwtblzPYKWGPkg&authuser=dpro308%40gmail.com&usp=drive_fs"
@@ -141,6 +181,15 @@ const Navbar = () => {
               Resume <BsFillPersonLinesFill size={30} />{" "}
             </a>
           </li>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-rose-900">
+            <a
+              className="flex justify-between items-center w-full text-gray-300"
+              href="https://twitter.com/DavidProto3"
+            >
+              Twitter <FaTwitter size={30} />{" "}
+            </a>
+          </li>
+
         </ul>
       </div>
     </div>

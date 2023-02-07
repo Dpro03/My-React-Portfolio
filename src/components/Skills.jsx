@@ -11,7 +11,7 @@ import MySql from "../assets/mysql.png";
 
 const Skills = () => {
   return (
-    <div name="Skills" className="w-full h-screen bg-gradient-to-r from-blue-900 to-rose-900  text-gray-300">
+    <div name="Skills" className="w-full h-screen bg-gradient-to-r from-slate-900 to-rose-900  text-gray-300">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>

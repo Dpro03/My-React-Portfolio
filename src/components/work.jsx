@@ -7,9 +7,11 @@ import JavaScriptQuiz from "../assets/JavaScript-Quiz.png";
 import passwordGenerator from "../assets/passwordGenerator.png";
 import jate from "../assets/jate.png";
 const Work = () => {
-  
   return (
-    <div name="work" className="w-full md:h-screen text-gray-300 bg-gradient-to-r from-blue-900 to-rose-900">
+    <div
+      name="work"
+      className="w-full md:h-screen text-gray-300 bg-gradient-to-r from-slate-900 to-rose-900"
+    >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-4">
           <p className="text-5xl font-bold inline border-b-4 text-gray-300 border-pink-600">
@@ -27,7 +29,8 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text white tracking-wider">
-                A node.js recipe sharing app using MySQL, Express, Handlebars and sequelize.
+                A node.js recipe sharing app using MySQL, Express, Handlebars
+                and sequelize.
               </span>
               <div classname="pt-8 text-center">
                 <a href=" https://obscure-shore-43973.herokuapp.com/">
@@ -172,7 +175,8 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text white tracking-wider">
-              A PWA app using node.js, express, webpacks, concurrently and indexeddb.
+                A PWA using express, webpacks, concurrently, babel,
+                indexeddb and is designed to function on or offline.
               </span>
               <div classname="pt-8 text-center">
                 <a href="https://warm-island-68234.herokuapp.com/">
@@ -191,7 +195,6 @@ const Work = () => {
         </div>
       </div>
     </div>
-
   );
 };
 
