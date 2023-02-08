@@ -1,9 +1,15 @@
 import React, { useState } from "react";
-import { FaBars, FaTimes, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import {
+  FaBars,
+  FaTimes,
+  FaGithub,
+  FaLinkedin,
+  FaTwitter,
+} from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import { FaFileDownload } from "react-icons/fa";
 // import DP6 from "../assets/DP6.jpeg";
+import logo from "../assets/webdev.png";
 import { Link } from "react-scroll";
 const Navbar = () => {
   const [nav, setNav] = useState(true);
@@ -11,14 +17,18 @@ const Navbar = () => {
 
   return (
     <div className="fixed w-full h-[90px] flex justify-between items-center px-0 bg-[#52525p] text-gray-300">
-      <div>
-        {/* <img src={DP6} alt="logo" style={{ width: "120px", height: "90px" }} /> */}
+      <div className="pt-14  border-8 border-black">
+        <img
+          src={logo}
+          alt="logo"
+          style={{ width: "160px", height: "160px" }}
+        />
       </div>
       {/* menu */}
       <ul className="hidden md:flex pr-10">
         <li>
           <Link
-            className="hover:text-slate-900"
+            className="hover:text-sky-600"
             to="Home"
             smooth={true}
             duration={500}
@@ -28,7 +38,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            className="hover:text-slate-900"
+            className="hover:text-sky-600"
             to="About"
             smooth={true}
             duration={500}
@@ -38,7 +48,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            className="hover:text-slate-900"
+            className="hover:text-sky-600"
             to="Skills"
             smooth={true}
             duration={500}
@@ -48,7 +58,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            className="hover:text-slate-900"
+            className="hover:text-sky-600"
             to="work"
             smooth={true}
             duration={500}
@@ -58,7 +68,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            className="hover:text-slate-900"
+            className="hover:text-sky-600"
             to="Contact"
             smooth={true}
             duration={500}
@@ -68,7 +78,7 @@ const Navbar = () => {
         </li>
       </ul>
       {/* hambuger */}
-      <div onClick={handleClick} className="md:hidden z-10 hover:text-pink-600">
+      <div onClick={handleClick} className="md:hidden z-10 hover:text-sky-600">
         {nav ? <FaBars /> : <FaTimes />}
       </div>
 
@@ -80,27 +90,27 @@ const Navbar = () => {
             : "absolute top-0 left-0 w-full h-screen bg-gradient-to-r from-slate-900 to-rose-900 flex flex-col justify-center items-center"
         }
       >
-        <li className="py-6 text-4xl hover:text-pink-600">
+        <li className="py-6 text-4xl hover:text-sky-600">
           <Link onClick={handleClick} to="Home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className="py-6 text-4xl hover:text-pink-600">
+        <li className="py-6 text-4xl hover:text-sky-600">
           <Link onClick={handleClick} to="About" smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li className="py-6 text-4xl hover:text-pink-600">
+        <li className="py-6 text-4xl hover:text-sky-600">
           <Link onClick={handleClick} to="Skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li className="py-6 text-4xl hover:text-pink-600">
+        <li className="py-6 text-4xl hover:text-sky-600">
           <Link onClick={handleClick} to="work" smooth={true} duration={500}>
             Work
           </Link>
         </li>
-        <li className="py-6 text-4xl hover:text-pink-600">
+        <li className="py-6 text-4xl hover:text-sky-600">
           <Link onClick={handleClick} to="Contact" smooth={true} duration={500}>
             Contact
           </Link>
@@ -108,46 +118,53 @@ const Navbar = () => {
         <br />
         <br />
         <li classname="py-6 text 2xl">
-        <a className="flex justify-between items-center left-1 w-full text-gray-300"
+          <a
+            className="flex justify-between items-center left-1 w-full text-gray-300 hover:text-sky-600"
             href="https://www.linkedin.com/in/david-proto-231521209/"
-          >linkedin <FaLinkedin size={30} />{" "} </a>
+          >
+            linkedin <FaLinkedin size={30} />{" "}
+          </a>
         </li>
         <br />
         <li classname="py-6 text 2xl">
-        <a className="flex justify-between items-center left-1 w-full text-gray-300"
+          <a
+            className="flex justify-between items-center left-1 w-full text-gray-300 hover:text-sky-600"
             href="https://Github.com/Dpro03/"
-          >Github <FaGithub size={30} />{" "} </a>
+          >
+            Github <FaGithub size={30} />{" "}
+          </a>
         </li>
         <br />
         <li classname="py-6 text 2xl">
-        <a className="flex justify-between items-center left-1 w-full text-gray-300"
-            href="mailto:dpro03@gmail.com">
-            Email <HiOutlineMail size={30} />{" "} </a>
+          <a
+            className="flex justify-between items-center left-1 w-full text-gray-300 hover:text-sky-600"
+            href="mailto:dpro03@gmail.com"
+          >
+            Email <HiOutlineMail size={30} />{" "}
+          </a>
         </li>
         <br />
         <li classname="py-6 text 2xl">
-        <a className="flex justify-between items-center left-1 w-full text-gray-300"
-        href="https://drive.google.com/open?id=1-8VXYD_EiPYXND0fgJXwtblzPYKWGPkg&authuser=dpro308%40gmail.com&usp=drive_fs"
-        >Resume <BsFillPersonLinesFill size={30} />{" "} </a>
+          <a
+            className="flex justify-between items-center left-1 w-full text-gray-300 hover:text-sky-600"
+            href="https://www.twitter.com/DavidProto3"
+          >
+            Twitter <FaTwitter size={30} />{" "}
+          </a>
         </li>
         <br />
         <li classname="py-6 text 2xl">
-        <a className="flex justify-between items-center left-1 w-full text-gray-300"
-        href="https://www.twitter.com/DavidProto3"
-        >Twitter <FaTwitter size={30} />{" "} </a>
+          <a
+            className="flex justify-between items-center left-1 w-full text-gray-300 hover:text-sky-600"
+            href="https://drive.google.com/open?id=1-8VXYD_EiPYXND0fgJXwtblzPYKWGPkg&authuser=dpro308%40gmail.com&usp=drive_fs"
+          >
+            Resume <BsFillPersonLinesFill size={30} />{" "}
+          </a>
         </li>
-
-            
-            
-          
-         
-
-
-
       </ul>
-    
+
       {/* social-icons */}
-      <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
+      <div className="hidden lg:flex fixed flex-col top-[45%] left-0">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-rose-900">
             <a
@@ -189,7 +206,6 @@ const Navbar = () => {
               Twitter <FaTwitter size={30} />{" "}
             </a>
           </li>
-
         </ul>
       </div>
     </div>
