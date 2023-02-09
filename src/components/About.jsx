@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div name="About" className="w-full h-screen bg-gradient-to-r from-slate-900 to-rose-900 text-gray-300">
+    <div name="About" className="w-full h-screen bg-gradient-to-r from-slate-900 to-rose-900 text-indigo-200">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
           <div className="sm:text-right pbb-8 pl-4">
@@ -21,7 +21,7 @@ const About = () => {
             </p>
           </div>
           <div>
-            <p class="text-blue-300 text-left h-full py-4 w-full">
+            <p class="text-blue-200 text-left h-full py-4 w-full">
               This is a new venture for me. For the past 20 plus years, I have
               had the great fortune of working as a respiratory therapist. With
               over two decades of experience in healthcare, I have developed a
