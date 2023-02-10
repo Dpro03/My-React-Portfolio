@@ -12,34 +12,33 @@ const Contact = () => {
         className="flex flex-col max-w-[600px] w-full"
       >
         <div className="pb-4">
-          <p className="text-5xl font-bold inline border-b-4 border-indigo-500 text-indigo-200">
+          <p className="text-5xl font-bold inline border-b-4 ml-4 border-indigo-500 text-indigo-200">
             Contact
           </p>
-          <p className="text-indigo-200 py-4 text-2xl">
+          <p className="text-indigo-200 ml-4 py-4 text-2xl">
             Submit the form below or send me an email at dpro308@gmail.com
           </p>
         </div>
         <input
-          className="bg-[#ccd6f6] p-2"
+          className="bg-[#ccd6f6] ml-4 p-2"
           type="text"
           placeholder="Name"
           name="name"
         />
         <input
-          className="my-4 p-2 bg-[#ccd6f6]"
+          className="my-4 p-2 ml-4 bg-[#ccd6f6]"
           type="email"
           placeholder="Email"
           name="email"
         />
         <textarea
-          className="bg-[#ccd6f6] p-2"
+          className="bg-[#ccd6f6] ml-4 p-2"
           name="message"
           rows="8"
           placeholder="Message"
         ></textarea>
         <button className="text-indigo-200 border-2 border-indigo-400 hover:bg-indigo-400 hover:border-black hover:text-black px-6 py-3 my-6 mx-auto flex items-center">
           Let's Collaborate <br></br>
-        
         </button>
       </form>
     </div>

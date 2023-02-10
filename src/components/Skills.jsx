@@ -15,14 +15,14 @@ const Skills = () => {
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
-          <p className="text-5xl text-indigo-200 font-bold inline border-b-4 border-indigo-500">
+          <p className="text-5xl text-indigo-200 font-bold inline border-b-4 ml-6 border-indigo-500">
             Skills
           </p>
-          <p className="py-4 text-2xl text-indigo-200">
+          <p className="py-4 text-2xl ml-6 text-indigo-200">
             These are some of the technologies I have worked with. 
           </p>
         </div>
-        <div className="w-full grid grid-cols-2 sm:grid-cols-4 text-center py-8">
+        <div className="w-auto grid grid-cols-2 sm:grid-cols-4 text-center ml-6 py-8">
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto pt-4" src={HTML} alt="HTML5" />
             <p className="my-4">HTML</p>

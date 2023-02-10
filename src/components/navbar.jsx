@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[90px] flex justify-between items-center px-0 bg-[#52525p] text-indigo-200">
       <div className="pt-14">
-        <img src={DP} alt="logo" style={{ width: "160px", height: "160px" }} />
+        <img src={DP} alt="logo" style={{ width: "85px", height: "85px" }} />
       </div>
       {/* menu */}
       <ul className="hidden md:flex pr-10">
@@ -164,41 +164,41 @@ const Navbar = () => {
       {/* social-icons */}
       <div className="hidden lg:flex fixed flex-col top-[45%] left-0">
         <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-rose-900">
+          <li className="w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-rose-900">
             <a
-              className="flex justify-between items-center w-full text-indigo-200"
+              className="flex justify-between items-center w-full text-indigo-100"
               href="https://www.linkedin.com/in/david-proto-231521209/"
             >
               Linkedin <FaLinkedin size={30} />{" "}
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#3f4d5a]">
+          <li className="w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#3f4d5a]">
             <a
-              className="flex justify-between items-center w-full text-gray-300"
+              className="flex justify-between items-center w-full text-indigo-100"
               href="https://Github.com/Dpro03"
             >
               GitHub <FaGithub size={30} />{" "}
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-rose-900">
+          <li className="w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-rose-900">
             <a
-              className="flex justify-between items-center w-full text-gray-300"
+              className="flex justify-between items-center w-full text-indigo-100"
               href="mailto:dpro308@gmail.com"
             >
-              Email <HiOutlineMail size={30} />{" "}
+              Email me! <HiOutlineMail size={30} />{" "}
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#3f4d5a]">
+          <li className="w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#3f4d5a]">
             <a
-              className="flex justify-between items-center w-full text-gray-300"
+              className="flex justify-between items-center w-full text-indigo-100"
               href="https://drive.google.com/open?id=1-8VXYD_EiPYXND0fgJXwtblzPYKWGPkg&authuser=dpro308%40gmail.com&usp=drive_fs"
             >
               Resume <BsFillPersonLinesFill size={30} />{" "}
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-rose-900">
+          <li className="w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-rose-900">
             <a
-              className="flex justify-between items-center w-full text-gray-300"
+              className="flex justify-between items-center w-full text-indigo-100"
               href="https://twitter.com/DavidProto3"
             >
               Twitter <FaTwitter size={30} />{" "}
