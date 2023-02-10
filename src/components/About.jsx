@@ -6,10 +6,10 @@ const About = () => {
       name="About"
       className="w-full h-screen bg-gradient-to-r from-slate-900 to-rose-900 text-indigo-200"
     >
-      <div className="flex flex-col justify-center items-center w-full h-full">
+      <div className="flex flex-col justify-center items-center w-auto h-full">
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
           <div className="sm:text-right pbb-8 pl-6">
-            <p className="sm:text-right text-5xl font-bold inline border-b-4 ml-4 border-indigo-500">
+            <p className="sm:text-right text-5xl font-bold inline border-b-4 ml-6 border-indigo-500">
               About
             </p>
           </div>
@@ -24,7 +24,7 @@ const About = () => {
             </p>
           </div>
           <div>
-            <p class="text-blue-200 text-left h-full py-4 ml-6 w-full">
+            <p class="text-blue-200 text-left h-full py-4 ml-6 w-auto">
               This is a new venture for me. For the past 20 plus years, I have
               had the great fortune of working as a respiratory therapist. With
               over two decades of experience in healthcare, I have developed a
