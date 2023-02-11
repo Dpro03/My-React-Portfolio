@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My-React-Portfolio/static/css/main.13881a15.css",
-    "main.js": "/My-React-Portfolio/static/js/main.f6cd4866.js",
+    "main.css": "/My-React-Portfolio/static/css/main.c0b3e975.css",
+    "main.js": "/My-React-Portfolio/static/js/main.3c2ee33e.js",
     "static/media/curious-appetite6.png": "/My-React-Portfolio/static/media/curious-appetite6.c2e57e82b0793c103ec9.png",
     "static/media/rainy-day-movies.png": "/My-React-Portfolio/static/media/rainy-day-movies.4c35e59d579b8bfe0b8f.png",
     "static/media/weather.png": "/My-React-Portfolio/static/media/weather.2ee35ce1973a7cc93700.png",
@@ -11,11 +11,11 @@
     "static/media/passwordGenerator.png": "/My-React-Portfolio/static/media/passwordGenerator.090bd56a05bb827b5ae6.png",
     "static/media/html5.png": "/My-React-Portfolio/static/media/html5.8264b3820b67ade73f54.png",
     "index.html": "/My-React-Portfolio/index.html",
-    "main.13881a15.css.map": "/My-React-Portfolio/static/css/main.13881a15.css.map",
-    "main.f6cd4866.js.map": "/My-React-Portfolio/static/js/main.f6cd4866.js.map"
+    "main.c0b3e975.css.map": "/My-React-Portfolio/static/css/main.c0b3e975.css.map",
+    "main.3c2ee33e.js.map": "/My-React-Portfolio/static/js/main.3c2ee33e.js.map"
   },
   "entrypoints": [
-    "static/css/main.13881a15.css",
-    "static/js/main.f6cd4866.js"
+    "static/css/main.c0b3e975.css",
+    "static/js/main.3c2ee33e.js"
   ]
 }
