@@ -16,15 +16,15 @@ const About = () => {
           <div></div>
         </div>
 
-        <div className="max-w-[1000px] grid sm:grid-cols-2 gap-8 px-4 pt-2">
-          <div className="text-4xl font-bold ml-6 py-4">
+        <div className="max-w-[1000px] grid sm:grid-cols-2 gap-2 px-4 pt-2">
+          <div className="text-4xl font-bold ml-6 py-2">
             <p>
               Hi, I'm Dave... It's nice to meet you! Please take a look
               around...
             </p>
           </div>
           <div>
-            <div className="text-blue-200 text-left px-4 pt-2 ml-10 w-auto">
+            <div className="text-blue-200 text-left px-4 pt-4 ml-10 w-auto">
               This is a new venture for me. For the past 20 plus years, I have
               had the fortune of working as a respiratory therapist. After two
               decades of experience in healthcare, I have decided that I needed
