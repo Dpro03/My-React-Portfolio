@@ -41,10 +41,10 @@ const About = () => {
               <div className="text-blue-200 text-left pt-1  w-auto">
                 <p>
                   -Adaptability, collaboration and good communication. <br></br>
-                  -Leadership and team building.<br></br>
-                  -Ability to use pseudocode to solve problems.<br></br>
+                  -Leadership and team building skills.<br></br>
                   -Strong Grasp of HTML, CSS and JavaScript.<br></br>
-                  -Experience with React, Node.js and MongoDB.
+                  -Experience with React, Node.js and MongoDB.<br></br>
+                  -Ability to keep calm in stressful situations.
                 </p>
               </div>
               <div></div>

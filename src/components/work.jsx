@@ -175,8 +175,8 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text white tracking-wider">
-                A PWA using express, webpacks, concurrently, babel,
-                indexeddb and is designed to function on or offline.
+                A PWA using express, webpacks, indexeddb and is designed to
+                function on or offline.
               </span>
               <div classname="pt-8 text-center">
                 <a href="https://warm-island-68234.herokuapp.com/">
