@@ -7,6 +7,7 @@ import JavaScriptQuiz from "../assets/JavaScript-Quiz.png";
 import passwordGenerator from "../assets/passwordGenerator.png";
 import jate from "../assets/jate.png";
 import inspirations from "../assets/Inspirations.png";
+import notflix from "../assets/notflix.png";
 const Work = () => {
   return (
     <div
@@ -210,6 +211,30 @@ const Work = () => {
                   </button>
                 </a>
                 <a href="https://github.com/ScottsC0de/proj-3">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font bold text-lg">
+                    Repo
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${notflix})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text white tracking-wider">
+                A Netflix clone using React, Firebase and Tailwind CSS that lets
+                the user 'favorite' shows to their account.
+              </span>
+              <div classname="pt-8 text-center">
+                <a href="https://notflix-react-8e862.web.app/account">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/Dpro03/notflix.git">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font bold text-lg">
                     Repo
                   </button>
