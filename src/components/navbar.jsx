@@ -154,7 +154,7 @@ const Navbar = () => {
         <li classname="py-6 text 2xl">
           <a
             className="flex justify-between items-center left-1 w-full text-indigo-200 hover:text-sky-600"
-            href="https://drive.google.com/file/d/1UPZZJIVtI2ZP1e4gVNSnJZ-yciTcK_07/view?usp=share_link"
+            href="https://drive.google.com/file/d/1Wc4-r6QD63ZsoltCUERlttZFt3XxpS44/view?usp=share_link"
           >
             Resume <BsFillPersonLinesFill size={30} />{" "}
           </a>
@@ -191,7 +191,7 @@ const Navbar = () => {
           <li className="w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#3f4d5a]">
             <a
               className="flex justify-between items-center w-full text-indigo-100"
-              href="https://drive.google.com/file/d/1UPZZJIVtI2ZP1e4gVNSnJZ-yciTcK_07/view?usp=share_link"
+              href="https://drive.google.com/file/d/1Wc4-r6QD63ZsoltCUERlttZFt3XxpS44/view?usp=share_link"
             >
               Resume <BsFillPersonLinesFill size={30} />{" "}
             </a>
