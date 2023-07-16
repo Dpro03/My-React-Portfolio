@@ -1,15 +1,15 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 import {
   FaBars,
   FaTimes,
   FaGithub,
   FaLinkedin,
   FaTwitter,
-} from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
-import DP from "../assets/dpd.png";
-import { Link } from "react-scroll";
+} from 'react-icons/fa';
+import { HiOutlineMail } from 'react-icons/hi';
+import { BsFillPersonLinesFill } from 'react-icons/bs';
+import DP from '../assets/dpd.png';
+import { Link } from 'react-scroll';
 const Navbar = () => {
   const [nav, setNav] = useState(true);
   const handleClick = () => setNav(!nav);
@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[90px] flex justify-between items-center px-0 bg-[#52525p] text-indigo-200">
       <div className="pt-14">
-        <img src={DP} alt="logo" style={{ width: "85px", height: "85px" }} />
+        <img src={DP} alt="logo" style={{ width: '85px', height: '85px' }} />
       </div>
       {/* menu */}
       <ul className="hidden md:flex pr-10">
@@ -84,8 +84,8 @@ const Navbar = () => {
       <ul
         className={
           nav
-            ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-gradient-to-r from-slate-900 to-rose-900 flex flex-col justify-center items-center"
+            ? 'hidden'
+            : 'absolute top-0 left-0 w-full h-screen bg-gradient-to-r from-slate-900 to-rose-900 flex flex-col justify-center items-center'
         }
       >
         <li className="py-6 text-4xl text-indigo-200 hover:text-sky-600">
@@ -118,9 +118,9 @@ const Navbar = () => {
         <li classname="py-6 text 2xl">
           <a
             className="flex justify-between items-center left-1 w-full text-indigo-200 hover:text-sky-600"
-            href="https://www.linkedin.com/in/david-proto-231521209/"
+            href="https://www.linkedin.com/in/david-r-proto/"
           >
-            linkedin <FaLinkedin size={30} />{" "}
+            linkedin <FaLinkedin size={30} />{' '}
           </a>
         </li>
         <br />
@@ -129,7 +129,7 @@ const Navbar = () => {
             className="flex justify-between items-center left-1 w-full text-indigo-200 hover:text-sky-600"
             href="https://Github.com/Dpro03/"
           >
-            Github <FaGithub size={30} />{" "}
+            Github <FaGithub size={30} />{' '}
           </a>
         </li>
         <br />
@@ -138,7 +138,7 @@ const Navbar = () => {
             className="flex justify-between items-center left-1 w-full text-indigo-200 hover:text-sky-600"
             href="mailto:dpro03@gmail.com"
           >
-            Email <HiOutlineMail size={30} />{" "}
+            Email <HiOutlineMail size={30} />{' '}
           </a>
         </li>
         <br />
@@ -147,16 +147,16 @@ const Navbar = () => {
             className="flex justify-between items-center left-1 w-full text-indigo-200 hover:text-sky-600"
             href="https://www.twitter.com/DavidProto3"
           >
-            Twitter <FaTwitter size={30} />{" "}
+            Twitter <FaTwitter size={30} />{' '}
           </a>
         </li>
         <br />
         <li classname="py-6 text 2xl">
           <a
             className="flex justify-between items-center left-1 w-full text-indigo-200 hover:text-sky-600"
-            href="https://drive.google.com/file/d/1Wc4-r6QD63ZsoltCUERlttZFt3XxpS44/view?usp=share_link"
+            href="https://drive.google.com/open?id=17HD0k2qrXSq1L6FcZPHTIjgES8tlrbUO&usp=drive_fs"
           >
-            Resume <BsFillPersonLinesFill size={30} />{" "}
+            Resume <BsFillPersonLinesFill size={30} />{' '}
           </a>
         </li>
       </ul>
@@ -167,9 +167,9 @@ const Navbar = () => {
           <li className="w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-rose-900">
             <a
               className="flex justify-between items-center w-full text-indigo-100"
-              href="https://www.linkedin.com/in/david-proto-231521209/"
+              href="https://www.linkedin.com/in/david-r-proto/"
             >
-              Linkedin <FaLinkedin size={30} />{" "}
+              Linkedin <FaLinkedin size={30} />{' '}
             </a>
           </li>
           <li className="w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#3f4d5a]">
@@ -177,7 +177,7 @@ const Navbar = () => {
               className="flex justify-between items-center w-full text-indigo-100"
               href="https://Github.com/Dpro03"
             >
-              GitHub <FaGithub size={30} />{" "}
+              GitHub <FaGithub size={30} />{' '}
             </a>
           </li>
           <li className="w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-rose-900">
@@ -185,15 +185,15 @@ const Navbar = () => {
               className="flex justify-between items-center w-full text-indigo-100"
               href="mailto:dpro308@gmail.com"
             >
-              Email me! <HiOutlineMail size={30} />{" "}
+              Email me! <HiOutlineMail size={30} />{' '}
             </a>
           </li>
           <li className="w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#3f4d5a]">
             <a
               className="flex justify-between items-center w-full text-indigo-100"
-              href="https://drive.google.com/file/d/1Wc4-r6QD63ZsoltCUERlttZFt3XxpS44/view?usp=share_link"
+              href="https://drive.google.com/open?id=17HD0k2qrXSq1L6FcZPHTIjgES8tlrbUO&usp=drive_fs"
             >
-              Resume <BsFillPersonLinesFill size={30} />{" "}
+              Resume <BsFillPersonLinesFill size={30} />{' '}
             </a>
           </li>
           <li className="w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-rose-900">
@@ -201,7 +201,7 @@ const Navbar = () => {
               className="flex justify-between items-center w-full text-indigo-100"
               href="https://twitter.com/DavidProto3"
             >
-              Twitter <FaTwitter size={30} />{" "}
+              Twitter <FaTwitter size={30} />{' '}
             </a>
           </li>
         </ul>

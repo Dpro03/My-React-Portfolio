@@ -1,13 +1,13 @@
-import React from "react";
-import curiousappetite from "../assets/curious-appetite6.png";
-import DayPlanner from "../assets/dayplanner.png";
-import rainydayMovies from "../assets/rainy-day-movies.png";
-import weather from "../assets/weather.png";
-import JavaScriptQuiz from "../assets/JavaScript-Quiz.png";
-import passwordGenerator from "../assets/passwordGenerator.png";
-import jate from "../assets/jate.png";
-import inspirations from "../assets/Inspirations.png";
-import notflix from "../assets/notflix.png";
+import React from 'react';
+import freshfleet from '../assets/freshfleet.png';
+import DayPlanner from '../assets/dayplanner.png';
+import rainydayMovies from '../assets/rainy-day-movies.png';
+import weather from '../assets/weather.png';
+import JavaScriptQuiz from '../assets/JavaScript-Quiz.png';
+import passwordGenerator from '../assets/passwordGenerator.png';
+import jate from '../assets/jate.png';
+import inspirations from '../assets/Inspirations.png';
+import notflix from '../assets/notflix.png';
 const Work = () => {
   return (
     <div
@@ -25,22 +25,22 @@ const Work = () => {
         <div className="grid ml-6 w-auto sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* grid-item */}
           <div
-            style={{ backgroundImage: `url(${curiousappetite})` }}
+            style={{ backgroundImage: `url(${freshfleet})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text white tracking-wider">
-                A node.js recipe sharing app using MySQL, Express, Handlebars
-                and sequelize.
+                An online grocery store I developed using HTML, TailwindCSS and
+                Javascript.
               </span>
               <div classname="pt-8 text-center">
-                <a href=" https://obscure-shore-43973.herokuapp.com/">
+                <a href="https://dpro03.github.io/Fresh-Fleet/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/HANIN003/curious-appetite.git">
+                <a href="https://github.com/Dpro03/Fresh-Fleet.git">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font bold text-lg">
                     Repo
                   </button>
